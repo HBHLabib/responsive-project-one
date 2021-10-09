@@ -1,0 +1,897 @@
+/*  
+    author: MD. Hafiz Bin Halim.
+    main: hbhlabib1@gmail.com
+    website: hafizbinhalim.com
+
+*/
+
+/*  
+
+    ====Index====
+    1. Header section.
+    2. free for everyone.
+    3.Our service.
+    4.Quotes.
+    5. price.
+    6.Facalities.
+    7. join us.
+    8. our latest updates.
+    9. more about tamplet.
+    10. Downlode now.
+    11. Footer section.
+
+*/
+
+/* Global css */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Theme css */
+
+/* Header css */
+
+.header-section{
+    background: url(./project-one-main-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.header-row{
+    padding: 30px 0px;
+}
+
+
+.cst-header-menu{
+    text-align: center;
+}
+.cst-header-menu ul{
+    list-style: none;
+}
+.cst-header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.cst-header-menu ul li a{
+    display: block;
+    padding: 0px 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cst-header-menu ul li a:hover{
+    color: #ed145b;
+}
+
+.cst-banner-content{
+    padding: 80px 0px 50px;
+    text-align: center;
+}
+.cst-banner-content h1{
+    color: white;
+    font-weight: 300;
+}
+.cst-banner-content h1 span{
+    font-weight: 600;
+}
+.cst-banner-content .cst-span{
+    display: block;
+    width: 20%;
+    border-bottom: 2px solid #ed145b;
+    margin: 30px auto;
+}
+
+.cst-banner-content p{
+    color: white;
+    margin: 0px 0px 80px;
+}
+.cst-banner-content .cst-btn{
+    background: #ed145b;
+    border: none;
+    outline: none;
+    padding: 8px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0px 0px 80px;
+}
+
+/* header media css */
+
+@media (max-width:500px){
+
+    .cst-header-logo{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+        
+
+    .cst-header-menu ul li a{
+        padding: 0px 18px;
+    }
+
+    .cst-banner-content p{
+        color: white;
+        margin: 0px 0px 45px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-header-menu ul li a{
+        padding: 0px 18px;
+    }
+
+    .cst-header-logo{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .cst-banner-content p{
+        color: white;
+        margin: 0px 0px 45px;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-header-menu ul li a{
+        padding: 0px 18px;
+    }
+
+    .cst-header-logo{
+        margin-bottom: 40px;
+    }
+    
+    .cst-banner-content p{
+        color: white;
+        margin: 0px 0px 65px;
+    }
+
+}
+
+@media (min-width:992.01px) and (max-width:1200px) {
+
+    .cst-header-menu ul li a{
+        padding: 0px 18px;
+    }
+
+}
+
+/* Free for everyone css */
+
+.free-section{
+    padding: 40px 0px 0px;
+    background: #f4f4f4;
+}
+
+.free-section .cst-line{
+    margin-top: -66px;
+    position: absolute;
+    z-index: 0;
+}
+
+.cst-free-row{
+    padding: 50px 0px 0px;
+}
+
+.cst-free-section h1{
+    color: #5a5a5a;
+    font-weight: 100;
+    font-size: 38px;
+    margin: 10px 0px 25px;
+}
+.cst-free-section span{
+    display: block;
+    width: 40%;
+    border-bottom: 2px solid #ed145b;
+    margin: 0px 0px 25px;
+}
+.cst-free-section p{
+    font-weight: 100;
+    font-size: 14px;
+    width: 90%;
+    margin: 0px 0px 25px;
+    color: #5a5a5a;
+}
+.cst-free-section .cst-text{
+    display: block;
+    color: #ed145b;
+    text-decoration: none;
+    margin: 0px 0px 50px;
+}
+.cst-free-section .cst-text i{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.cst-free-img{
+}
+
+
+/* free media css */
+
+@media (max-width:500px){
+
+    .cst-free-section h1{
+        text-align: center;
+    }
+    .cst-free-section span{
+        margin: 0px auto 25px;
+    }
+    .cst-free-section p{
+        text-align: justify;
+        margin: 0px auto 25px;
+        width: 74%;
+    }
+    .cst-free-section .cst-text{
+        text-align: center;
+    }
+
+    .free-section .cst-line{
+        margin-top: -50px;
+        position: absolute;
+        z-index: 0;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-free-section h1{
+        text-align: center;
+    }
+    .cst-free-section span{
+        margin: 0px auto 25px;
+    }
+    .cst-free-section p{
+        text-align: justify;
+        margin: 0px auto 25px;
+        width: 78%;
+    }
+    .cst-free-section .cst-text{
+        text-align: center;
+    }
+
+    .free-section .cst-line{
+        margin-top: -54px;
+        position: absolute;
+        z-index: 0;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-free-section h1{
+        text-align: center;
+    }
+    .cst-free-section span{
+        margin: 0px auto 25px;
+    }
+    .cst-free-section p{
+        text-align: justify;
+        margin: 0px auto 25px;
+        width: 86%;
+    }
+    .cst-free-section .cst-text{
+        text-align: center;
+    }
+
+    .free-section .cst-line{
+        margin-top: -60px;
+        position: absolute;
+        z-index: 0;
+    }
+
+}
+
+/* service section */
+
+.service-section{
+    padding: 100px 0px 50px;
+}
+.cst-service-row{
+    text-align: center;
+    color: #5a5a5a;
+}
+.cst-service-row h1{
+    margin: 0px 0px 25px;
+}
+.cst-service-row span{
+    display: block;
+    width: 15%;
+    border-bottom: 2px solid #ed145b;
+    margin: 0px auto 25px;
+}
+.cst-service-row p{
+    width: 60%;
+    margin: 0px auto 40px;
+}
+.cst-icon-banner{
+    text-align: center;
+    margin: 0px 0px 30px;
+}
+
+/* quotes section css */
+
+.quotes-section{
+    background: url(./first-project-quots-bannar.jpg) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+.cst-quots i{
+    font-size: 60px;
+    color: #ed145b;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin: 45px 0px 45px;
+}
+.cst-quots p{
+    color: white;
+    width: 68%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* price section */
+
+.price-section{
+    padding: 50px 0px;
+    background: #f4f4f4;
+}
+.main-card{
+    text-align: center;
+}
+
+.main-card:hover .price-ammount {
+    background: #ed145b;
+}
+
+.price-ammount{
+    background-color: gray;
+    color: white;
+    padding: 30px 0px;
+    transition: 0.5s;
+}
+
+.price-ammount h3 span{
+    font-size: 15px;
+}
+.price-ammount h4{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-btn a{
+    position: absolute;
+    top: 99px;
+    left: 65px;
+    display: block;
+    background: #f4f4f4;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    z-index: 1;
+}
+.list-div{
+    background: white;
+    position: relative;
+    padding: 40px 0px;
+    z-index: 0;
+}
+.list-div ul{
+    list-style: none;
+}
+.list-div ul li{
+    display: block;
+    line-height: 50px;
+}
+.list-div ul li a{
+    color: gray;
+    text-decoration: none;
+}
+.buy-now-btn{
+    background: #ed145b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none !important;
+    display: block;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.buy-now-btn:hover{
+    color: white;
+}
+
+.change{
+    margin: 0px 0px 40px;
+}
+
+/* price section media */
+
+@media (max-width:500px){
+
+    .card-btn a{
+        top: 99px;
+        left: 165px;
+    }
+
+    .main-card{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .card-btn a{
+        top: 99px;
+        left: 194px;
+    }
+
+    .main-card{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .card-btn a{
+        top: 99px;
+        left: 15px;
+    }
+
+    .main-card{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+/* facalaties section css */
+
+.faca-section{
+    padding: 100px 0px;
+}
+.cst-col{
+    margin-bottom: 30px;
+}
+
+.cst-con-col h4{
+    color: #ed145b;
+}
+.cst-con-col p{
+    color: #5a5a5a;
+    font-size: 16px;
+    width: 93%;
+}
+
+/* facalaties section media css */
+
+@media (max-width:500px){
+
+    .cst-con-col{
+        text-align: center;
+    }
+
+    .cst-img-col{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-con-col{
+        text-align: center;
+    }
+
+    .cst-img-col{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-con-col{
+        text-align: center;
+    }
+
+    .cst-img-col{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* join us css */
+
+.join-us{
+    background: #ed145b;
+    padding: 50px 0px;
+}
+
+.cst-join {
+    margin-top: 25px;
+}
+
+.cst-join h1{
+    font-size: 30px;
+    color: white;
+}
+.cst-join a{
+    text-decoration: none;
+    color: #ed145b;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: block;
+}
+
+/* join us media css */
+
+@media (max-width:500px){
+
+    .cst-join h1{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cst-join a{
+        width: 30%;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-join h1{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cst-join a{
+        width: 30%;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-join h1{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cst-join a{
+        width: 30%;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+}
+
+/* latest updates css */
+.latest-section{
+    padding: 50px 0px;
+}
+.change-two{
+    margin: 0px 0px 30px;
+}
+.cst-latest{
+    margin-bottom: 20px;
+}
+.cst-latest-content{
+    background: #f4f4f4;
+    color: #5a5a5a;
+}
+.cst-latest-content h4{
+    padding: 10px 5px 10px;
+}
+.cst-latest-content h5{
+    padding: 0px 5px 10px;
+}
+.cst-latest-img{
+    position: relative;
+}
+
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #db226075;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.layer i{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.cst-latest-img:hover .layer{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+} 
+
+
+/* latest updates media css */
+
+@media (max-width:500px){
+
+    .cst-latest{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-latest{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-latest{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+
+    .layer i{
+        top: 50px;
+        left: 70px;
+    }
+
+}
+
+/* more about tamplet css */
+
+.get-more-section{
+    background: url(./project-one-main-banner.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+}
+
+.get-more-cst h1{
+    margin: 0px 0px 25px;
+}
+.get-more-cst span{
+    display: block;
+    border-bottom: 2px solid #ed145b;
+    width: 40%;
+    margin: 0px auto 25px;
+}
+.get-more-cst p{
+    width: 68%;
+    margin: 0px auto 35px;
+    line-height: 30px;
+}
+.get-more-cst a{
+    display: block;
+    background: #ed145b;
+    width: 20%;
+    margin: 0px auto 0px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* get more media css */
+
+@media (max-width:500px){
+
+    .get-more-cst a{
+        width: 30%;
+    }
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .get-more-cst a{
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .get-more-cst a{
+        width: 30%;
+    }
+
+}
+
+/* downlode css */
+
+.downlode-section{
+    color: #686868;
+    padding: 100px 0px;
+}
+
+.cst-dwn-section h1{
+    font-size: 37px;
+    width: 85%;
+    margin: 0px 0px 40px;
+}
+.cst-dwn-section span{
+    display: block;
+    border-bottom: 2px solid #ed145b;
+    width: 30%;
+    margin: 0px 0px 25px;
+}
+.cst-dwn-section p{
+    line-height: 30px;
+    margin: 0px 0px 15px;
+}
+.cst-dwn-section a{
+    display: block;
+    background: #ed145b;
+    width: 35%;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+/* downlode media css */
+
+@media (max-width:500px){
+
+    .cst-dwn-section{
+        text-align: center;
+    }
+
+    .cst-dwn-section a{
+        margin: 20px auto 0px;
+    }
+
+    .cst-dwn-section span{
+        margin: 0px auto 25px;
+    }
+
+    .cst-dwn-section h1{
+        margin: 20px auto 40px;
+    }
+
+    .cst-dwn-section p{
+        margin: 0px 0px 50px;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-dwn-section{
+        text-align: center;
+    }
+
+    .cst-dwn-section a{
+        margin: 20px auto 0px;
+    }
+
+    .cst-dwn-section span{
+        margin: 0px auto 25px;
+    }
+
+    .cst-dwn-section h1{
+        margin: 20px auto 40px;
+    }
+
+    .cst-dwn-section p{
+        margin: 0px 0px 50px;
+    }
+
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+
+    .cst-dwn-section{
+        text-align: center;
+    }
+
+    .cst-dwn-section a{
+        margin: 20px auto 0px;
+    }
+
+    .cst-dwn-section span{
+        margin: 0px auto 25px;
+    }
+
+    .cst-dwn-section h1{
+        margin: 20px auto 40px;
+    }
+
+    .cst-dwn-section p{
+        margin: 0px 0px 50px;
+    }
+
+
+}
+
+/* footer css */
+
+.footer-section{
+    background: #2b2b2b;
+    padding: 30px 0px;
+    color: white;
+}
+
+.footer-first-con h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-sec-con h4{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+         /* === THE END === */
